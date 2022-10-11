@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+相同操作不说了，见教程原链接
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+1 $ yarn add --dev hardhat
 
-Try running some of the following tasks:
+2 $ yarn hardhat 选择 js 模板
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+3 $ node HelloVitalik.js
+
