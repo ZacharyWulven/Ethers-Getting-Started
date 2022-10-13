@@ -15,12 +15,14 @@ async function main() {
     // 查询 vitalik 的 ETH 余额
     // 由于 ethers 原生支持 ENS 域名，我们不需要知道具体地址，
     // 用 ENS 域名 vitalik.eth 就可以查询到以太坊创始人豚林-vitalik的余额。
-    const balance = await provider.getBalance(`vitalik.eth`);
+    // vitalik.eth
+    const name = "vitalik.eth"
+    const balance = await provider.getBalance(`${name}`);
     // 将余额输出在console
     // 我们从链上获取的以太坊余额以 wei 为单位，而 1 ETH = 10^18 wei。
     // 我们打印之前，需要进行单位转换。ethers 提供了功能函数 formatEther，
     // 我们可以利用它将 wei 转换为 ETH
-    console.log(`ETH Balance of vitalik: ${ethers.utils.formatEther(balance)} ETH`);
+    console.log(`ETH Balance of ${name} : ${ethers.utils.formatEther(balance)} ETH`);
 }
 
 main().then(() => process.exit(0)).catch(
