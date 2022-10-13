@@ -8,8 +8,4 @@ typechain-types
 #Hardhat files
 cache
 artifacts
-gas-report.txt
-coverage.json
-coverage
-/.DS_Store
-.DS_Store
+
