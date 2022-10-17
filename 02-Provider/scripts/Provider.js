@@ -1,3 +1,20 @@
+/*
+这一讲，我们将介绍Signer签名者类和和它派生的Wallet钱包类，并利用它来发送ETH。
+Signer签名者类
+
+Web3.js认为用户会在本地部署以太坊节点，私钥和网络连接状态由这个节点管理（实际并不是这样）；
+而在ethers.js中，Provider提供器类管理网络连接状态，Signer签名者类或Wallet钱包类管理密钥，安全且灵活。
+
+在ethers中，Signer签名者类是以太坊账户的抽象，可用于对消息和交易进行签名，并将签名的交易发送到以太坊网络，
+并更改区块链状态。Signer类是抽象类，不能直接实例化，我们需要使用它的子类：Wallet钱包类。
+
+Wallet钱包类
+Wallet类继承了Signer类，并且开发者可以像包含私钥的外部拥有帐户（EOA）一样，用它对交易和消息进行签名。
+
+下面我们介绍创建Wallet实例的几种办法：
+*/
+
+
 // 导入 ethers 包
 const { ethers } = require("ethers");
 
@@ -67,3 +84,4 @@ main().then(() => process.exit(0)).catch(
         process.exit(1);
     }
 );
+
