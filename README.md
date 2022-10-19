@@ -6,6 +6,6 @@
 [原教程连接](https://github.com/WTFAcademy/WTF-Ethers)
 
 ## 入门
-### 第1讲：HelloVitalik，通过 hardhat 实现，[README](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/01-HelloVitalik/README.md)
+### 第1讲：HelloVitalik，通过 hardhat 实现，[Tutorial](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/01-HelloVitalik/README.md)
 
-### 第6讲：通过 hardhat 部署合约，[教程](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/06-DeployContract/README.md)
+### 第6讲：通过 hardhat 部署合约，[Tutorial](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/06-DeployContract/README.md)
