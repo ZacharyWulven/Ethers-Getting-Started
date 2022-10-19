@@ -1,5 +1,3 @@
-# Sample Hardhat Project
-
 # Ethers-06 部署合约
 
 ## 理论
