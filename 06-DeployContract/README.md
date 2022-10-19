@@ -60,5 +60,7 @@ const factoryERC20 = new ethers.ContractFactory(fullAbiERC20, bytecodeERC20, wal
 
 ### 6 部署合约
 ```js
-$ node deploy.js
+$ node deployContract.js.js
 ```
+
+### 详细代码见 contracts/deployContract.js
