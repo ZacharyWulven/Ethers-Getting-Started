@@ -1,4 +1,10 @@
 
+/*
+智能合约释放出的事件存储于以太坊虚拟机的日志中。
+日志分为两个主题topics和数据data部分，其中事件哈希和indexed变量存储在topics中，
+作为索引方便以后搜索；没有indexed变量存储在data中，不能被直接检索，但可以存储更复杂的数据结构。
+*/
+
 const { ethers } = require("ethers");
 
 // 利用 Alchemy 的 rpc 节点连接以太坊网络
