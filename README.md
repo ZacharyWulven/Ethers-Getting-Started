@@ -9,3 +9,6 @@
 ### 第1讲：HelloVitalik，通过 hardhat 实现，[Tutorial](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/01-HelloVitalik/README.md)
 
 ### 第6讲：通过 hardhat 部署合约，[Tutorial](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/06-DeployContract/README.md)
+### 第7讲：通过 hardhat 查询合约事件，[Tutorial](https://github.com/ZacharyWulven/Ethers-Getting-Started/blob/master/07-Event/README.md)
+
+
